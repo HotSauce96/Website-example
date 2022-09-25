@@ -1,0 +1,312 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: -apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 200px;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+  width: 100%;
+  background-color: #757575;    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+a{
+  color: #fff;
+  font-family: 'BIZ UDPMincho', serif;
+  text-decoration: none;
+}
+
+li{
+  width: 100%;
+  position: relative;
+  left:1550px;
+  top: 5px;
+  font-size: 24px;
+  padding: 10px;
+  list-style-type: none;
+  display: inline;
+}
+
+.li{
+  font-size: 24px;
+  color: #fff;
+  font-family: 'BIZ UDPMincho', serif;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  text-decoration:underline;
+}
+
+.banner-item-01{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 850px;
+  width: 100%;
+  background-image: url(/Laptops-for-Engineering-Students.jpg);
+  background-size: cover;
+}
+
+.productos{
+ position: relative;
+ left: 5px;
+ padding: 5px;
+ background-color: #e5e1e1; 
+ border-radius: 15px;
+ box-sizing: content-box;
+ font-size: 22px;
+}
+
+.second-title{
+  width:100%;
+ position: relative;
+ right: -1075px;
+ font-size: 75px;
+ letter-spacing: 6px;
+ font-family: 'BIZ UDPMincho', serif;
+ color: rgb(0, 0, 0);
+}
+
+.first-title {
+  width:100%;
+ padding-left: 20px;
+ font-size: 3rem;
+ letter-spacing: 9px;
+ font-family: 'BIZ UDPMincho', serif;
+}
+.subtitle-four{
+  width:100%;
+ font-size: 28px;
+ font-family: 'BIZ UDPMincho', serif;
+ text-align: center;
+ padding-bottom: 20px;
+}
+
+.subtitle-five{
+  width:100%;
+ text-align:center;
+ font-size: 42px;
+ font-family: 'BIZ UDPMincho', serif;
+ position: relative;
+ left: 745px; 
+}
+
+.subtitle-six{
+  width:100%;
+  text-align:center;
+  font-size: 36px;
+  padding-top: 15px;
+  font-family: 'BIZ UDPMincho', serif;
+  position: relative;
+  left: 745px; 
+}
+
+.subtitle-footer{
+  width:100%;
+  text-align:center;
+  font-size: 42px;
+  padding-top: 55px;
+  font-family: 'BIZ UDPMincho', serif;
+}
+
+
+.paragraph{
+  width:100%;
+  font-size: 24px;
+  font-family: 'BIZ UDPMincho', serif;
+  text-align: center;
+}
+
+.paragraph-lorem{
+  width:100%;
+  font-size: 30px;
+  padding: 45px;
+  font-family: 'BIZ UDPMincho', serif;
+  position: relative;
+  left: 745px; 
+}
+
+.paragraph-footer{
+  width:100%;
+  font-size: 22px;
+  font-family: 'BIZ UDPMincho', serif;
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.img-key{
+  width:100%;
+  position: relative;
+  top: -60px;
+}
+
+.title-section{
+  width:100%;
+  font-size: 46px;
+  letter-spacing: 4px;
+  font-family: 'BIZ UDPMincho', serif;
+  text-align:center;
+  padding-top: 50px;
+  padding-left: 80px;
+  padding-bottom: 80px;
+}
+
+.section-heading{
+  width:100%;
+  display: inline-block;
+  position: relative;
+  left: 50px;
+}
+
+.parent {
+  width:100%;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 6px;
+  grid-row-gap: 106px;
+}
+
+button{
+  width:100%;
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+img {
+  width:100%;
+  width:745px;
+  height:450px;
+}
+
+.img-silla{
+ width:445px;
+ padding-left: 155px;
+}
+
+.img-lampara{
+ width:445px;
+ padding-left:155px;
+}
+
+footer{
+background-color: #757575;
+color: white;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   opacity: 1;
+}
+
+@media(max-width:33%){
+    body{
+      display: block;
+      margin: 0 auto;
+      font-family: -apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+      font-size: 1rem;
+      max-width: 500px;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      text-align: left;
+      background-color: #fff;
+      scroll-behavior: smooth;
+    }
+
+    .second-title{
+      width:100%;
+    position: relative;
+    right: -1075px;
+    font-size: 75px;
+    letter-spacing: 6px;
+    font-family: 'BIZ UDPMincho', serif;
+    color: rgb(0, 0, 0);
+    }
+  .navbar{
+    background-color: #757575;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+
+  a{
+    color: #fff;
+    font-family: 'BIZ UDPMincho', serif;
+    text-decoration: none;
+  }
+
+  li{
+    position: relative;
+    left:1550px;
+    top: 5px;
+    font-size: 24px;
+    padding: 10px;
+    list-style-type: none;
+    display: inline;
+  }
+
+  .li{
+    font-size: 24px;
+    color: #fff;
+    font-family: 'BIZ UDPMincho', serif;
+    text-decoration: none;
+  }
+
+
+  li a:hover {
+    text-decoration:underline;
+  }
+
+
+
+  .productos{
+  position: relative;
+  left: 5px;
+  padding: 5px;
+  background-color: #e5e1e1; 
+  border-radius: 15px;
+  box-sizing: content-box;
+  font-size: 22px;
+  }
+}
+
+@media(max-width:100%){
+  .banner-item-01{
+    display: flex;
+    align-items: center;
+    height: 850px;
+    width: 100%;
+    background-image: url(/Laptops-for-Engineering-Students.jpg);
+    background-size: cover;
+  }
+}
