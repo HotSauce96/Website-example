@@ -134,6 +134,7 @@ li a:hover {
 .paragraph-lorem{
   width:100%;
   font-size: 30px;
+  text-align: center;
   padding: 45px;
   font-family: 'BIZ UDPMincho', serif;
   position: relative;
@@ -144,8 +145,9 @@ li a:hover {
   width:100%;
   font-size: 22px;
   font-family: 'BIZ UDPMincho', serif;
+  align-items: center;
   text-align: center;
-  padding-bottom: 35px;
+  padding-bottom: 45px;
 }
 
 .img-key{
@@ -226,7 +228,7 @@ color: white;
    opacity: 1;
 }
 
-@media(max-width:33%){
+@media(max-width:600px){
     body{
       display: block;
       margin: 0 auto;
